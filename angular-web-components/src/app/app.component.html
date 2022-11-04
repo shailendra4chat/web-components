@@ -1,0 +1,11 @@
+<div class="App">
+  <input placeholder="Enter your name" [(ngModel)]="name" />
+
+  <div class="greeting">Hello {{name}}!</div>
+
+  <!-- check the component property value to render or not the feature -->
+  <search-result
+    *ngIf="showSearchResult"
+    [attr.name-attribute]="name"
+  ></search-result>
+</div>

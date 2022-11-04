@@ -1,1 +1,9 @@
-react-web-components
+angular-web-components/dist
+angular-web-components/node_modules
+angular-web-components/.angular
+angular-web-components/.vscode
+
+react-web-components/build
+react-web-components/node_modules
+
+
