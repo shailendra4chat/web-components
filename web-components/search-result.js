@@ -1,5 +1,5 @@
 //this is a Web Component, NOT a React,Vue or Angular component.
-
+console.log("In the Search Result")
 const template = document.createElement('template');
 template.innerHTML = `
   <style>
